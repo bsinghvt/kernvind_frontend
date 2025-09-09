@@ -1,0 +1,79 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "kernvind (web-dev)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome",
+            "program": "lib/main_dev_web.dart",
+            "args": ["d", "chrome",   "--web-renderer",
+                "html", "--web-port", "65426"]
+        },
+        {
+            "name": "kernvind (test-prod-web)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome",
+            "program": "lib/main_prod_web.dart",
+            "args": ["d", "chrome", "--web-port", "65426"]
+        },
+        {
+            "name": "kernvind (ios-dev-15pro)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "A82CDE26-0919-432F-9D69-6F9F113A6814",
+            "program": "lib/main_dev.dart",
+        },
+        {
+            "name": "kernvind(ios-test-prod-16pro)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "EECCC0B1-8D05-4906-A665-E7398F86D536",
+            "program": "lib/main.dart",
+        },
+        {
+            "name": "kernvind (ios-dev-16pro)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "EECCC0B1-8D05-4906-A665-E7398F86D536",
+            "program": "lib/main_dev.dart",
+        },
+        {
+            "name": "kernvind (macos-dev)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "macos",
+            "program": "lib/main_dev.dart",
+        },
+        {
+            "name": "kernvind (android-dev)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554",
+            "program": "lib/main_dev.dart",
+        },
+        {
+            "name": "kernvind (android-prod-test)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554",
+            "program": "lib/main.dart",
+        },
+        {
+            "name": "kernvind (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "kernvind (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
